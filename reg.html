@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Register</title>
+	<script type = "text/javascript" src = "validate.js" ></script>
+	<link rel = "stylesheet" href = "reg.css" />
+</head>
+<body>
+	<center><h1>Register</h1>
+<form id = "reg">
+<input class = "validate" type = "text" name = "fname" placeholder = "First Name" onblur = "validate_name(this)" /></br>
+<p class = "validation-message" id ="validation-message-fname"></p>
+<input class = "validate" type = "text" name = "lname" placeholder = "Last Name" onblur = "validate_name(this)" /></br>
+<p class = "validation-message" id = "validation-message-lname"></p>
+<input class = "validate" type = "text" name = "email" placeholder = "Email" onblur = "validate_email(this)" /></br>
+<p class = "validation-message" id = "validation-message-email"></p>
+<input class = "validate" type = "text" name = "mobno" placeholder = "Mobile Number" onblur = "validate_mobnumber(this)" /></br>
+<p class = "validation-message" id = "validation-message-mobno"></p>
+<input class = "validate" type = "password" name = "password" placeholder = "Password" onblur = "validate_password(this)" /></br>
+<p class = "validation-message" id = "validation-message-pass"></p>
+<input class = "validate" type = "password" name = "confirmpassword" placeholder = "Confirm Password" onblur = "confirm_password(this)" /></br></br>
+<p class = "validation-message" id = "validation-message-cpass"></p>
+<input type = "submit" value = "Submit" style = "width:5%; height:3%;" />
+</form></center>
+</br>
+</body>
+</html>

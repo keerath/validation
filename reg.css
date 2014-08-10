@@ -1,0 +1,21 @@
+input
+{
+	width:25%;
+	padding: 8px 10px;
+	height:3%;
+	border-style:solid;
+	border-color: #bdc7d8;
+
+}
+input:focus
+{
+	outline:none;
+}
+
+.validation-message
+{
+text-align: left;
+width:25%;
+color: #cc4a4a;
+font-size: 13px;
+}
